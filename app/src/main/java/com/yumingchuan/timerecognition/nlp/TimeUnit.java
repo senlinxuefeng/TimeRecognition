@@ -1,8 +1,8 @@
-package com.yumingchuan.timerecognition.time.nlp;
+package com.yumingchuan.timerecognition.nlp;
 
 
-import com.yumingchuan.timerecognition.time.enums.RangeTimeEnum;
-import com.yumingchuan.timerecognition.time.util.DateUtil;
+import com.yumingchuan.timerecognition.enums.RangeTimeEnum;
+import com.yumingchuan.timerecognition.util.DateUtil;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

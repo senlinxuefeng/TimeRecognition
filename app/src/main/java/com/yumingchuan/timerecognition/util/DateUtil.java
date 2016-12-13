@@ -9,7 +9,7 @@
  * ------------------------------------------------------<br>
  * 1.0		2016年3月8日		kexm		created.<br>
  */
-package com.yumingchuan.timerecognition.time.util;
+package com.yumingchuan.timerecognition.util;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

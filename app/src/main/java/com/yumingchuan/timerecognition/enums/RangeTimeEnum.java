@@ -9,7 +9,7 @@
  * ------------------------------------------------------<br>
  * 1.0		2016年5月3日		kexm		created.<br>
  */
-package com.yumingchuan.timerecognition.time.enums;
+package com.yumingchuan.timerecognition.enums;
 
 /**
  * <p>

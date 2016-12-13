@@ -1,9 +1,9 @@
-package com.yumingchuan.timerecognition.time.nlp;
+package com.yumingchuan.timerecognition.nlp;
 
 
 import android.content.Context;
 
-import com.yumingchuan.timerecognition.time.util.DateUtil;
+import com.yumingchuan.timerecognition.util.DateUtil;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

@@ -1,4 +1,4 @@
-package com.yumingchuan.timerecognition.time.nlp;
+package com.yumingchuan.timerecognition.nlp;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

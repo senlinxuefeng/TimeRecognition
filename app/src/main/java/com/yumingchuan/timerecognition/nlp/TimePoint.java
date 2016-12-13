@@ -9,7 +9,7 @@
  * ------------------------------------------------------<br>
  * 1.0		2016年5月4日		kexm		created.<br>
  */
-package com.yumingchuan.timerecognition.time.nlp;
+package com.yumingchuan.timerecognition.nlp;
 
 /**
  * <p>

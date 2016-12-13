@@ -9,7 +9,7 @@
  * ------------------------------------------------------<br>
  * 1.0		2016年4月25日		kexm		created.<br>
  */
-package com.yumingchuan.timerecognition.time.util;
+package com.yumingchuan.timerecognition.util;
 
 
 import java.text.ParseException;

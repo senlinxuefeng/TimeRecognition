@@ -13,9 +13,9 @@ package com.yumingchuan.timerecognition;
 
 import android.content.Context;
 
-import com.yumingchuan.timerecognition.time.nlp.TimeNormalizer;
-import com.yumingchuan.timerecognition.time.nlp.TimeUnit;
-import com.yumingchuan.timerecognition.time.util.DateUtil;
+import com.yumingchuan.timerecognition.nlp.TimeNormalizer;
+import com.yumingchuan.timerecognition.nlp.TimeUnit;
+import com.yumingchuan.timerecognition.util.DateUtil;
 
 import java.util.regex.Pattern;
 
