@@ -1,5 +1,5 @@
 # TimeRecognition
-#中文语句中的时间语义识别(注释：基于https://github.com/shinyke/Time-NLP，做了Android studio的demo)
+#中文语句中的时间语义识别(注释：基于 https://github.com/shinyke/Time-NLP  做的Android studio的demo)
 
 
 
