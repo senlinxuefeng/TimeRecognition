@@ -1,0 +1,32 @@
+# 通用的忽略文件设置（http://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project）
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# generated files
+bin/
+gen/
+
+# Ignore gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Mac OS X clutter
+*.DS_Store
+
+# Android Studio
+*.iml
+
+# Intellij IDEA (see https://intellij-support.jetbrains.com/entries/23393067)
+/.idea/workspace.xml
+/.idea/libraries
+
+# other setting
+/captures
+*.keystore
