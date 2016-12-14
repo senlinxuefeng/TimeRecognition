@@ -2,7 +2,7 @@
 #中文语句中的时间语义识别(注释：基于 https://github.com/shinyke/Time-NLP  做的Android studio的demo)
 
 
-![](https://github.com/senlinxuefeng/TimeRecognition/raw/master/picture/timerecognition.png)<br>
+![](https://github.com/senlinxuefeng/TimeRecognition/raw/master/picture/timerecognition2.png)<br>
 
 本工具是由复旦NLP中的时间分析功能修改而来，做了很多细节和功能的优化，具体如下：
 
