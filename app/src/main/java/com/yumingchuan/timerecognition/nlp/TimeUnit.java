@@ -38,6 +38,8 @@ public class TimeUnit
 	public TimePoint _tp=new TimePoint();
 	public TimePoint _tp_origin=new TimePoint();
 
+	public int[][] locationArr = new int[1][2];;
+
 	/**
 	 * 时间表达式单元构造方法
      * 该方法作为时间表达式单元的入口，将时间表达式字符串传入

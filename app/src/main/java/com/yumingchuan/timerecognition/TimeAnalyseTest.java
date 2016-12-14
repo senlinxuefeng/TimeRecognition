@@ -39,12 +39,14 @@ public class TimeAnalyseTest {
 //		Log.i("TimeAnalyseTest",classPath+"/TimeExp.m");
 
         //TimeNormalizer normalizer = new TimeNormalizer(classPath+"/TimeExp.m");
-        TimeNormalizer normalizer = new TimeNormalizer(mContext, "TimeExp.m");
+        TimeNormalizer normalizer = new TimeNormalizer(mContext, "TimeExp.m",true);
 
 		normalizer.parse("Hi，all。下周一下午三点开会");// 抽取时间
         TimeUnit[] unit = normalizer.getTimeUnit();
 		Log.i("TimeAnalyseTest","Hi，all。下周一下午三点开会");
 		Log.i("TimeAnalyseTest",DateUtil.formatDateDefault(unit[0].getTime()) + "-" + unit[0].getIsAllDayTime());
+
+
 
 		normalizer.parse("早上六点起床");// 注意此处识别到6天在今天已经过去，自动识别为明早六点（未来倾向，可通过开关关闭：new TimeNormalizer(classPath+"/TimeExp.m", false)）
 		unit = normalizer.getTimeUnit();
@@ -92,6 +94,9 @@ public class TimeAnalyseTest {
         Log.i("TimeAnalyseTest","周四下午三点到五点开会");
         Log.i("TimeAnalyseTest",DateUtil.formatDateDefault(unit[0].getTime()) + "-" + unit[0].getIsAllDayTime());
         Log.i("TimeAnalyseTest",DateUtil.formatDateDefault(unit[1].getTime()) + "-" + unit[1].getIsAllDayTime());
+
+
+
 
     }
 
